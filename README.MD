@@ -1,5 +1,7 @@
 # How to create new docker with host network
-`docker run -it --network host -v /home/cloud/shared_folder/:/shared_folder/ --name arima_oncology --privileged arimaxiang/arima_oncology:0.3`
+```
+docker run -it --network host -v /home/cloud/shared_folder/:/shared_folder/ --name arima_oncology --privileged arimaxiang/arima_oncology:0.3
+```
 
 # How to install singularity in docker, (it should be installed in docker)
 https://stackoverflow.com/a/66978973
