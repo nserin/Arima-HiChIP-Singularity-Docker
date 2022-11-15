@@ -5,6 +5,11 @@
   2.2 `screen a`
 3. `docker ps ` - get list of running docker and take docker id to enter
 4. `docker exec -it {docker_id} bash` - enter inside of docker
+5. move R1, R2 to the /Oncology/INPUT/ `mv /shared_folder/...R1..fastq.qz /Oncology/INPUT/
+6. then run this command when you are in /Oncology folder
+```
+bash run_Arima-Oncology-Pipeline-singularity-v0.3.sh -I /Oncology/INPUT/P1574_DNA_01_DHL4_HiChIP_S1_R1_001.fastq.gz,/Oncology/INPUT/P1574_DNA_01_DHL4_HiChIP_S1_R2_001.fastq.gz -o /Oncology/OUTPUT/
+```
 
 
 # How to create new docker with host network
