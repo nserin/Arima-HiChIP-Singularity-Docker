@@ -11,6 +11,10 @@
 bash run_Arima-Oncology-Pipeline-singularity-v0.3.sh -I /Oncology/INPUT/P1574_DNA_01_DHL4_HiChIP_S1_R1_001.fastq.gz,/Oncology/INPUT/P1574_DNA_01_DHL4_HiChIP_S1_R2_001.fastq.gz -o /Oncology/OUTPUT/
 ```
 
+## How to check if the job is done?
+1. `ssh -i id-rsa cloud@141.5.109.198`
+2. use `htop`, and if CPU usage is high, it means that job is still running in background.
+
 
 # How to create new docker with host network
 ```
