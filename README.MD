@@ -13,9 +13,9 @@ bash run_Arima-Oncology-Pipeline-singularity-v0.3.sh -I /Oncology/INPUT/P1574_DN
 ## How can I move folders?
 1. `ssh -i id-rsa cloud@141.5.109.198`
 3. check job is done or not
-        1. `screen -list` - to get id and
-        2. `screen -r {id of screen}` 
-        3. if you see `job is finished`, you can start doing step 4, otherwise use `ctrl+a+d` to deattach from screen, and job will continue in background
+    1. `screen -list` - to get id and
+    2. `screen -r {id of screen}` 
+    3. if you see `job is finished`, you can start doing step 4, otherwise use `ctrl+a+d` to deattach from screen, and job will continue in background
 4. move OUTPUT folder to the shared folder in docker
 ```
 mv /Oncology/OUTPUT/ /shared_folder/OUTPUT/Farage/
