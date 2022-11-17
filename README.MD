@@ -1,6 +1,6 @@
 ## How to run ARIMA?
-1 `ssh -i id-rsa cloud@141.5.109.198`
-2 create new `screen` by this command `screen -s arima_screen_name`, if you want to check result you have to go in `screen`
+1. `ssh -i id-rsa cloud@141.5.109.198`
+2. create new `screen` by this command `screen -s arima_screen_name`, if you want to check result you have to go in `screen`
   - 2.1 `screen -ls` - list of screen
   - 2.2 `screen a`
 3. `docker ps ` - get list of running docker and take docker id to enter
