@@ -17,9 +17,9 @@ bash run_Arima-Oncology-Pipeline-singularity-v0.3.sh -I /Oncology/INPUT/P1574_DN
   - 2.2 `screen -r {id of screen}` 
   - 2.3 if you see `job is finished`, you can start doing step 4, otherwise use `ctrl+a+d` to deattach from screen, and job will continue in background
 - 4. move OUTPUT folder to the shared folder in docker
-`mv /Oncology/OUTPUT/ /shared_folder/OUTPUT/Farage/`
+```mv /Oncology/OUTPUT/ /shared_folder/OUTPUT/Farage/```
 - 5. clean OUTPUT folder
-rm -rf /Oncology/OUTPUT
+```rm -rf /Oncology/OUTPUT```
 - 6. then close `screen` by using `exit` command multiple times until you exit ssh
 
 
