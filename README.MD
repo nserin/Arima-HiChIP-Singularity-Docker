@@ -10,6 +10,15 @@
 ```
 bash run_Arima-Oncology-Pipeline-singularity-v0.3.sh -I /Oncology/INPUT/P1574_DNA_01_DHL4_HiChIP_S1_R1_001.fastq.gz,/Oncology/INPUT/P1574_DNA_01_DHL4_HiChIP_S1_R2_001.fastq.gz -o /Oncology/OUTPUT/
 ```
+7.After running
+ctrl+a+d
+
+##Checking the screens
+screen -list
+screen -r -id
+If you see the job is done you can move the output folder to the shared folder. 
+
+
 ## How can I move folders?
 1. `ssh -i id-rsa cloud@141.5.109.198`
 3. check job is done or not
@@ -25,6 +34,9 @@ mv /Oncology/OUTPUT/ /shared_folder/OUTPUT/Farage/
 rm -rf /Oncology/OUTPUT
 ```
 6. then close `screen` by using `exit` command multiple times until you exit ssh
+
+## Kill Screen
+screen -X -S[session # you want to kill] quit
 
 
 ## How to check if the job is done?
