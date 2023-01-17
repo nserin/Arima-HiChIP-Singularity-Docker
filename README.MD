@@ -1,4 +1,14 @@
 ## Arima Oncology Pipeline
+
+## Transfer files
+cd /mnt/my-volume-huge/
+screen -s cell_line_name
+wget https://filetransfer.mdc-berlin.de/P1574_DNA_01_DHL4HiChIP_S1_L001_R1_001.fastq.gz
+
+
+
+
+
 1. `ssh -i id-rsa cloud@141.5.109.198`
 2. create new `screen` by this command `screen -s arima_screen_name`, if you want to check result you have to go in `screen`
     1. `screen -ls` - list of screen
