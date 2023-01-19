@@ -1,12 +1,9 @@
 ## Arima Oncology Pipeline
 
 ## Transfer files
-##cd /mnt/my-volume-huge/
-##screen
-##wget https://filetransfer.mdc-berlin.de/P1574_DNA_01_DHL4HiChIP_S1_L001_R1_001.fastq.gz
-
-
-
+1. cd /mnt/my-volume-huge/
+2.screen
+3. wget "https://filetransfer.mdc-berlin.de/?u=aGAfkWwg&p=P2k7zjZU&path=/221202_A00643_0600_BHK53TDSX5_P1574/...."
 
 
 1. `ssh -i id-rsa cloud@141.5.109.198`
