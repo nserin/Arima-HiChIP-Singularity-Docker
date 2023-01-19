@@ -1,9 +1,9 @@
 ## Arima Oncology Pipeline
 
 ## Transfer files
-#cd /mnt/my-volume-huge/
-#screen
-#wget https://filetransfer.mdc-berlin.de/P1574_DNA_01_DHL4HiChIP_S1_L001_R1_001.fastq.gz
+##cd /mnt/my-volume-huge/
+##screen
+##wget https://filetransfer.mdc-berlin.de/P1574_DNA_01_DHL4HiChIP_S1_L001_R1_001.fastq.gz
 
 
 
